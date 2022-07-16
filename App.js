@@ -1,6 +1,7 @@
 // import librarires
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import NetflixCard from "./src/components/NetflixCard";
 import OurButton from "./src/components/OurButton";
 import TouchOpacity from "./src/components/TouchOpacity";
 import { FlatListComp } from "./src/screens/FlatListComp";
@@ -12,8 +13,9 @@ const App = () => {
   return (
     <View style={styles.container}>
       {/* <ImagesFILE /> */}
-      <OurButton />
-      <TouchOpacity />
+      {/* <OurButton />
+      <TouchOpacity /> */}
+      <NetflixCard />
     </View>
   );
 };

@@ -1,18 +1,18 @@
-import { View, Text, StyleSheet, Image } from "react-native";
+import { View, Text, Image, StyleSheet } from "react-native";
 import React from "react";
-import CardDetails from "../components/CardDetails";
 
-const ImagesFILE = () => {
+const CardDetails = () => {
   return (
-    <View style={styes.listStyle}>
-      <Text style={styes.textStyle}>Mahadev</Text>
-
-      <CardDetails />
+    <View>
+      <Image
+        style={styes.imageStyle}
+        source={require("../../assets/Beautiful-God-Mahadev-Images-Wallpaper.jpg")}
+      />
     </View>
   );
 };
 
-export default ImagesFILE;
+export default CardDetails;
 
 const styes = StyleSheet.create({
   listStyle: {
